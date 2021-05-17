@@ -5,10 +5,15 @@ This repository contains the PrivaSeer Corpus described in the paper [Privacy at
 The PrivaSeer Corpus contains 1.4 million privacy policies in the form of HTML files. The HTML files have been distributed between 100 folders. Each folder has ~10,000 HTML files. The HTML files are named based on the hash value of the URL of the privacy policy web page. Each file name has the format hash_value.html. 
 
 The metadata for each file is provided in the file named ‘metadata.’ The metadata file contains the following data regarding each file:
+
 **hash**: The hash value of the URL of the privacy policy web page as well as the html file name
+
 **timestamp**: The date when the file was crawled in the format dd/mm/yyyy
+
 **url**: Privacy policy web page URL
+
 **folder_path**: The name of the folder in which the file is located. 
+
 **probability**: The probability that the file is a privacy policy. Only those files which have a probability greater than 0.5 have been included in the corpus. Please refer to the paper for more details. 
 
 The corpus has been made available for research, teaching, and scholarship purposes only, under a CC BY-NC-SA license. Please contact us for any requests regarding commercial use. 
